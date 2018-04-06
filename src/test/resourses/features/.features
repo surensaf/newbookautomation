@@ -1,0 +1,7 @@
+Feature: Login
+  As a [client]
+
+  Scenario: Login
+    Given valid username and  "kjkjkjk"
+    When I login to the system
+    Then successfull login
